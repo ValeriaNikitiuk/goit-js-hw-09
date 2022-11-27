@@ -1,0 +1,2 @@
+const e=document.querySelector("[data-start]"),t=document.querySelector("[data-stop]");document.querySelector("body");let r=null;e.addEventListener("click",(()=>{r=setInterval((()=>{var e;e=`#${Math.floor(16777215*Math.random()).toString(16)}`,document.body.style.backgroundColor=e}),1e3),e.setAttribute("disabled",!0),t.removeAttribute("disabled")})),t.addEventListener("click",(()=>{clearInterval(r),console.log("Фон зупинено "),e.removeAttribute("disabled"),t.setAttribute("disabled",!0)}));
+//# sourceMappingURL=01-color-switcher.13479811.js.map
