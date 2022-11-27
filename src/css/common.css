@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+.body-timer {
+  background: url('wow.jpg') no-repeat ;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.input-block input {
+  margin-left: 150px;
+  padding: 15px;
+    font-size: 27px;
+    font-weight: 400;
+    background-color: rgb(179, 179, 255);
+
+}
+       
+.timer{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+  .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      justify-content: center;
+      width: 240px;
+      height: 240px;
+      margin: 0 25px;
+      border-radius: 50%;
+      cursor: default;
+      color: aliceblue;
+      background: conic-gradient(#02c2c2 0 0%, #303238 0% 100%);
+      box-shadow: 0 0 10px #303238 , 0 0 20px #303238;
+    }
+  
+    .css_field {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      background: #1d1e22;
+      box-shadow: 0 0 4px #1d1e22, 0 0 6px #1d1e22;
+    }
+
+    span {
+      margin: -15px;
+      text-align: center;
+    }
+
+    .value {
+      margin-top: -20px;
+       text-align: center;
+      color:#02c2c2;
+      font-size: 110px;
+      font-weight: 700;
+    }
+
+    .label {
+      margin-top: 10px;
+      color: #fff88f;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+    }
+
+    button {
+  text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 25px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+    
+
+        button:hover {
+          background-position: right center;
+        }
+    
+  
